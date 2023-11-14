@@ -1,16 +1,12 @@
 # dating_app
 
-A new Flutter project.
-
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is translating User Interface design into code. 
+The design is from [Freebiesui](https://freebiesui.com/figma-freebies/dating-app-free-ui-kit/) and the code is written in [Flutter](https://flutter.dev/).
 
-A few resources to get you started if this is your first Flutter project:
+This project also uses simple animations to make the app more interactive and state management to make the app more responsive.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To be added soon once the project is completed.
