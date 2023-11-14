@@ -10,6 +10,7 @@ class MyMaterialApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        fontFamily: 'Sk Modernist',
         primaryColor: AppColors.primaryColor,
       ),
       home: const SignUpView(),
