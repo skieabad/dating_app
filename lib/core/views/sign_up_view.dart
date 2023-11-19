@@ -17,7 +17,7 @@ class SignUpView extends StatelessWidget {
             child: Column(
               children: [
                 const Image(
-                  image: AssetImage('assets/logo.png'),
+                  image: AssetImage('assets/images/logo.png'),
                 ),
                 const SizedBox(height: 78.0),
                 const Text(
@@ -64,17 +64,17 @@ class SignUpView extends StatelessWidget {
                   children: [
                     CustomCard(
                       onTap: () {},
-                      child: Image.asset('assets/facebook.png'),
+                      child: Image.asset('assets/images/facebook.png'),
                     ),
                     const SizedBox(width: 20.0),
                     CustomCard(
                       onTap: () {},
-                      child: Image.asset('assets/google.png'),
+                      child: Image.asset('assets/images/google.png'),
                     ),
                     const SizedBox(width: 20.0),
                     CustomCard(
                       onTap: () {},
-                      child: Image.asset('assets/apple.png'),
+                      child: Image.asset('assets/images/apple.png'),
                     ),
                   ],
                 ),
