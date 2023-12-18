@@ -85,27 +85,33 @@ class _OnBoardingViewState extends State<OnBoardingView> {
               onPressed: () {},
             ),
             const SizedBox(height: 30.0),
-            const Padding(
-              padding: EdgeInsets.symmetric(horizontal: 40.0),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 40.0),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text(
+                  const Text(
                     'Already have an account?',
                     style: TextStyle(
                       color: AppColors.secondaryColor,
                       fontWeight: FontWeight.w400,
                     ),
                   ),
-                  SizedBox(width: 6.0),
-                  Text(
-                    'Sign in',
-                    style: TextStyle(
-                      color: AppColors.primaryColor,
-                      fontWeight: FontWeight.w700,
+                  const SizedBox(width: 6.0),
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.of(context).push(MaterialPageRoute(
+                          builder: (ctx) => const SignUpView()));
+                    },
+                    child: const Text(
+                      'Sign in',
+                      style: TextStyle(
+                        color: AppColors.primaryColor,
+                        fontWeight: FontWeight.w700,
+                      ),
                     ),
                   ),
-                  SizedBox(height: 30.0),
+                  const SizedBox(height: 30.0),
                 ],
               ),
             ),
