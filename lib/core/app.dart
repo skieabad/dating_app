@@ -1,5 +1,5 @@
 import 'package:dating_app/core/themes/app_colors.dart';
-import 'package:dating_app/core/views/sign_up_view.dart';
+import 'package:dating_app/core/views/onboarding_view.dart';
 import 'package:flutter/material.dart';
 
 class MyMaterialApp extends StatelessWidget {
@@ -13,7 +13,7 @@ class MyMaterialApp extends StatelessWidget {
         fontFamily: 'Sk Modernist',
         primaryColor: AppColors.primaryColor,
       ),
-      home: const SignUpView(),
+      home: const OnBoardingView(),
     );
   }
 }
