@@ -1,6 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:dating_app/core/models/onboarding_model.dart';
 import 'package:dating_app/core/themes/app_colors.dart';
+import 'package:dating_app/core/views/sign_up_view.dart';
 import 'package:dating_app/core/widgets/custom_button.dart';
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
